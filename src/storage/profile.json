@@ -6,9 +6,12 @@
         "training":"http://act.boldprogressives.org/survey/fin_training_app/",
         "electionOffice":"https://www.usa.gov/election-office"
     },
+	"articles" : {
+		"chapter-start" : "_chapter-start"
+	},
 	"states": {
 		"alabama": {
-			"abbrev" : "AL",
+			"abbrev": "AL",
 			"chapters": {
 				"State of Alabama": {
 					"link": "https://www.facebook.com/Local-Berniecrats-Alabama-1164292100310419/"
@@ -16,7 +19,7 @@
 			}
 		},
         "alaska": { 
-			"abbrev" : "AK",
+			"abbrev": "AK",
 			"chapters": {
 				"District 35 SE Alaska": {
 					"link": "https://www.facebook.com/groups/509839785888969/"
@@ -24,7 +27,7 @@
 			}
         },
         "arizona": { 
-			"abbrev" : "AZ",
+			"abbrev": "AZ",
 			"chapters": {
 				"State of Arizona": {
 					"link": "https://www.facebook.com/berniecrats4AZ/"
@@ -32,12 +35,12 @@
 			}
         },
         "arkansas": { 
-			"abbrev" : "AR",
+			"abbrev": "AR",
 			"chapters": {
 			}
         },		
         "california": { 
-			"abbrev" : "CA",
+			"abbrev": "CA",
 			"chapters": {
 				"Antelope Valley": {
 					"link": "https://www.facebook.com/groups/wewantbernieav/"
@@ -69,7 +72,7 @@
 			}
         },
         "colorado": { 
-			"abbrev" : "CO",
+			"abbrev": "CO",
 			"chapters": {
 				"Denver-Boulder": {
 					"link": "https://www.facebook.com/berniecratsdenverboulder/"
@@ -77,7 +80,7 @@
 			}
         },
         "connecticut": { 
-			"abbrev" : "CT",
+			"abbrev": "CT",
 			"chapters": {
 				"Killingly": {
 					"link": "https://www.facebook.com/groups/1834753773414939/"
@@ -85,29 +88,29 @@
 			}
         },
         "district of columbia": { 
-			"abbrev" : "DC",
+			"abbrev": "DC",
 			"chapters": {
 			}
         },
         "delaware": { 
+			"abbrev": "DE",			
 			"chapters": {
-			"abbrev" : "DE",
 				"Delaware": {
 					"link": "https://www.facebook.com/groups/157213881351324/"
 				}
 			}
         },
         "florida": { 
+			"abbrev": "FL",
 			"chapters": {
-			"abbrev" : "FL",
 				"Sarasota/Manatee": {
 					"link": "https://www.facebook.com/LocalBerniecratsSaraMana/"
 				}
 			}
         },
         "georgia": { 
+			"abbrev": "GA",			
 			"chapters": {
-			"abbrev" : "GA",
 				"Atlanta": {
 					"link": "https://www.facebook.com/LocalBerniecratsATL/"
 				},
@@ -117,12 +120,12 @@
 			}
         },
         "guam": { 
-			"abbrev" : "GU",
+			"abbrev": "GU",
 			"chapters": {
 			}
         },
         "hawaii": { 
-			"abbrev" : "HI",
+			"abbrev": "HI",
 			"chapters": {
 				"Hawaii": {
 					"link": "https://www.facebook.com/berniecratswithaloha/"
@@ -130,12 +133,12 @@
 			}
         },
         "idaho": { 
-			"abbrev" : "ID",
+			"abbrev": "ID",
 			"chapters": {
 			}
         },
         "illinois": { 
-			"abbrev" : "IL",
+			"abbrev": "IL",
 			"chapters": {
 				"Southern Illinois": {
 					"link": "https://www.facebook.com/groups/berniecrats4southernIL/"
@@ -143,7 +146,7 @@
 			}
         },
         "indiana": { 
-			"abbrev" : "IN",
+			"abbrev": "IN",
 			"chapters": {
 				"Fort Wayne and Northeast Indiana": {
 					"link": "https://www.facebook.com/groups/FWNEINBerniecrats/"
@@ -154,7 +157,7 @@
 			}
         },
         "iowa": { 
-			"abbrev" : "IA",
+			"abbrev": "IA",
 			"chapters": {
 				"Cedar Valley Iowa": {
 					"link": "https://www.facebook.com/Local-Berniecrats-Cedar-Valley-Iowa-136163673487939/"
@@ -165,12 +168,12 @@
 			}
         },
         "kansas": { 
-			"abbrev" : "KS",
+			"abbrev": "KS",
 			"chapters": {
 			}
         },
         "kentucky": { 
-			"abbrev" : "KY",
+			"abbrev": "KY",
 			"chapters": {
 				"Tri State KY OH WVA": {
 					"link": "https://www.facebook.com/berniecratsKYOHWVA"
@@ -178,7 +181,7 @@
 			}
         },
         "louisiana": {
-			"abbrev" : "LA",
+			"abbrev": "LA",
 			"chapters": {
 				"State of Louisiana": {
 					"link": "https://www.facebook.com/Local-Berniecrats-Louisiana-1220098388021580/"
@@ -186,12 +189,12 @@
 			}
         },
         "maine": { 
-			"abbrev" : "ME",
+			"abbrev": "ME",
 			"chapters": {
 			}
         },
         "maryland": { 
-			"abbrev" : "MD",
+			"abbrev": "MD",
 			"chapters": {
 				"Baltimore": {
 					"link": "https://www.facebook.com/groups/769640953173339/"
@@ -202,7 +205,7 @@
 			}
         },
         "massachusetts": { 
-			"abbrev" : "MA",
+			"abbrev": "MA",
 			"chapters": {
 				"Worcester County": {
 					"link": "https://www.facebook.com/groups/1813412892222125/"
@@ -210,7 +213,7 @@
 			}
         },
         "michigan": { 
-			"abbrev" : "MI",
+			"abbrev": "MI",
 			"chapters": {
 				"West Michigan": {
 					"link": "https://www.facebook.com/LocalBerniecratsWestMichigan/"
@@ -218,7 +221,7 @@
 			}
         },
         "minnesota": {
-			"abbrev" : "MN", 
+			"abbrev": "MN", 
 			"chapters": {
 				"Minnesota": {
 					"link": "https://www.facebook.com/groups/660180634137108/"
@@ -226,12 +229,12 @@
 			}
         },
         "mississippi": {
-			"abbrev" : "MS", 
+			"abbrev": "MS", 
 			"chapters": {
 			}
         },
         "missouri": { 
-			"abbrev" : "MO",
+			"abbrev": "MO",
 			"chapters": {
 				"Kansas City": {
 					"link": "https://www.facebook.com/groups/653592508127016/"
@@ -242,12 +245,12 @@
 			}
         },
         "montana": { 
-			"abbrev" : "MT",
+			"abbrev": "MT",
 			"chapters": {
 			}
         },
         "nebraska": { 
-			"abbrev" : "NE",
+			"abbrev": "NE",
 			"chapters": {
 				"State of Nebraska": {
 					"link": "https://facebook.com/LocalBerniecratsNebraska/"
@@ -258,17 +261,17 @@
 			}
         },
         "nevada": { 
-			"abbrev" : "NV",
+			"abbrev": "NV",
 			"chapters": {
 			}
         },
         "new hampshire": {
-			"abbrev" : "NH", 
+			"abbrev": "NH", 
 			"chapters": {
 			}
         },
         "new jersey": { 
-			"abbrev" : "NJ",
+			"abbrev": "NJ",
 			"chapters": {
 				"Monmouth County New Jersey": {
 					"link": "https://www.facebook.com/Local-Berniecrats-Monmouth-County-New-Jersey-1071215512914245/"
@@ -279,7 +282,7 @@
 			}
         },
         "new mexico": { 
-			"abbrev" : "NM",
+			"abbrev": "NM",
 			"chapters": {
 				"Albuquerque": {
 					"link": "https://www.facebook.com/groups/900194190092405/"
@@ -287,7 +290,7 @@
 			}
         },
         "new york": { 
-			"abbrev" : "NY",
+			"abbrev": "NY",
 			"chapters": {
 				"Long Island": {
 					"link": "https://www.facebook.com/Local-Berniecrats-Long-Island-NY-1097229583663788/"
@@ -304,7 +307,7 @@
 			}
         },
         "north carolina": { 
-			"abbrev" : "NC",
+			"abbrev": "NC",
 			"chapters": {
 				"Asheville Area/WNC": {
 					"link": "https://www.facebook.com/groups/1717226081873311/"
@@ -321,12 +324,12 @@
 			}
         },
         "north dakota": { 
-			"abbrev" : "ND",
+			"abbrev": "ND",
 			"chapters": {
 			}
         },
         "ohio": { 
-			"abbrev" : "OH",
+			"abbrev": "OH",
 			"chapters": {
 				"Tri State KY OH WVA": {
 					"link": "https://www.facebook.com/berniecratsKYOHWVA/"
@@ -340,12 +343,12 @@
 			}
         },
         "oklahoma": { 
-			"abbrev" : "OK",
+			"abbrev": "OK",
 			"chapters": {
 			}
         },
         "oregon": { 
-			"abbrev" : "OR",
+			"abbrev": "OR",
 			"chapters": {
 				"State of Oregon": {
 					"link": "https://www.facebook.com/groups/761502287285469/"
@@ -356,7 +359,7 @@
 			}
         },
         "pennsylvania": { 
-			"abbrev" : "PA",
+			"abbrev": "PA",
 			"chapters": {
 				"Eastern PA": {
 					"link": "https://www.facebook.com/Localberniecratsnepa/"
@@ -367,12 +370,12 @@
 			}
         },
         "puerto rico": { 
-			"abbrev" : "PR",
+			"abbrev": "PR",
 			"chapters": {
 			}
         },
         "rhode island": { 
-			"abbrev" : "RI",
+			"abbrev": "RI",
 			"chapters": {
 				"Rhode Island": {
 					"link": "https://www.facebook.com/BerniecratsRI/"
@@ -380,17 +383,17 @@
 			}
         },
         "south carolina": { 
-			"abbrev" : "SC",
+			"abbrev": "SC",
 			"chapters": {
 			}
         },
         "south dakota": { 
-			"abbrev" : "SD",
+			"abbrev": "SD",
 			"chapters": {
 			}
         },
         "tennessee": { 
-			"abbrev" : "TN",
+			"abbrev": "TN",
 			"chapters": {
 				"State of Tennessee": {
 					"link": "https://www.facebook.com/groups/252859578440158/"
@@ -398,7 +401,7 @@
 			}
         },
         "texas": { 
-			"abbrev" : "TX",
+			"abbrev": "TX",
 			"chapters": {
 				"Dallas-Fort Worth": {
 					"link": "https://www.facebook.com/groups/1782547551991016/"
@@ -409,12 +412,12 @@
 			}
         },
         "utah": { 
-			"abbrev" : "UT",
+			"abbrev": "UT",
 			"chapters": {
 			}
         },
         "vermont": { 
-			"abbrev" : "VT",
+			"abbrev": "VT",
 			"chapters": {
 				"State of Vermont": {
 					"link": "https://www.facebook.com/groups/1767010893512698/"
@@ -422,7 +425,7 @@
 			}
         },
         "virginia": { 
-			"abbrev" : "VA",
+			"abbrev": "VA",
 			"chapters": {
 				"Commonwealth of Virginia": {
 					"link": "https://www.facebook.com/groups/100286480419952/"
@@ -430,12 +433,12 @@
 			}
         },
         "virgin islands": { 
-			"abbrev" : "VI",
+			"abbrev": "VI",
 			"chapters": {
 			}
         },
         "washington state": { 
-			"abbrev" : "WA",
+			"abbrev": "WA",
 			"chapters": {
 				"Washington State": {
 					"link": "https://www.facebook.com/groups/256575948051987/"
@@ -443,7 +446,7 @@
 			}
         },
         "west virginia": { 
-			"abbrev" : "WV",
+			"abbrev": "WV",
 			"chapters": {
 				"State of West Virginia": {
 					"link": "https://www.facebook.com/groups/125747971199765/"
@@ -454,7 +457,7 @@
 			}
         },
         "wisconsin": {
-			"abbrev" : "WI", 
+			"abbrev": "WI", 
 			"chapters": {
 				"Milwaukee - Waukesha": {
 					"link": "https://www.facebook.com/groups/1300977459913232/"
@@ -462,7 +465,7 @@
 			}
         },
         "wyoming": { 
-			"abbrev" : "WY",
+			"abbrev": "WY",
 			"chapters": {
 			}
         }

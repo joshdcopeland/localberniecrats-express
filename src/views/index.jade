@@ -1,0 +1,11 @@
+extends ./layout.jade
+
+block content
+    h1 "The future home of LBcrats!"
+    div.profile-chooser WELCOME! CHOOSE YOUR STATE
+        form(action='' method='get' id='profile-form')
+            select(name='test' form='profile-form' onchange="javascript:location.href = this.value;")
+                option select your state 
+                each state in Object.keys(data.states)
+                    option.profile-option(value='/profile/'+state) #{state}
+            input(type='submit' value='Submit')

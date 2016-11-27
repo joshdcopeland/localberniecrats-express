@@ -1,23 +1,47 @@
 'use strict';
 
 var express = require('express'),
-    profiles = require('./storage/profile.json');
+    data = require('./storage/profile.json'),
+    stateNames = Object.keys(data.states),
+    states = Object.keys(data.states).map(function(value){
+        return data.states[value];
+    });
+
+
+// Object.keys(data).map(function(value){return data[value]})
+
+
 
 var app = express();
 
-app.get('/', function(req, res) {
+app.set('view engine', 'jade');
+app.set('views', __dirname  + '/views'); 
 
-    res.send("<h1>Local Berniecrats!!</h1>");
+app.get('/', function(req, res) {
+    res.render('index', {stateNames: stateNames, states: states, data: data});
 })
 
 app.get('/profile/:profileName?', function(req, res) {
     var profileName = req.params.profileName;
-    if (profileName === undefined || profiles.states[profileName] === undefined) {
-        res.status(503);
+    if (profileName === undefined || data.states[profileName] === undefined) {
+        res.status(503);  
         res.send("This page is under construction!");    
     } else {
-        var profile = profiles.states[profileName];
-        res.send(profile);
+        var profile = data.states[profileName];
+        res.render('profile', {data: profile, profileName: profileName});
+    }
+
+});
+
+app.get('/article/:articleName/:profileName?', function(req, res) {
+    var articleName = req.params.articleName;
+    var profileName = req.params.profileName;
+
+    if (articleName === undefined || data.articles[articleName] === undefined) {
+        res.status(503);  
+        res.send("This article page is under construction!");    
+    } else {
+        res.render('./articles/' + articleName, {profileName: profileName});
     }
 
 });

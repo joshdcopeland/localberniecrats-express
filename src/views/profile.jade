@@ -1,0 +1,10 @@
+extends ./layout.jade
+block content
+    h1 #{profileName} Local Chapters!
+    div.profile 
+        ul.chapter-list
+            each chapter in Object.keys(data.chapters)
+                li 
+                    a(href=data.chapters[chapter].link target="_blank") #{chapter}
+
+    include ./partials/_profile-links
