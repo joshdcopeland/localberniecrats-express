@@ -31,7 +31,7 @@ block content
                                         h4.modal-title(id="appChoice#{chapter.replace(/ /g,'')}") Chapters are on Facebook. Do you want to go to the app or browser?
                                     .modal-body
                                         span.choice
-                                            a(href='fb://' + data.chapters[chapter].link.replace("https://www.facebook.com/", "").replace("groups/", "group/?id=").replace("https://facebook.com/", ""),target="_blank", onclick="$('#appChoice#{chapter.replace(/ /g,'')}').modal('hide')")
+                                            a(href='fb://' + data.chapters[chapter].link.replace("https://www.facebook.com/", "").replace("groups/", "group?id=").replace("https://facebook.com/", ""),target="_blank", onclick="$('#appChoice#{chapter.replace(/ /g,'')}').modal('hide')")
                                                 span Facebook App!
                                             a(href=data.chapters[chapter].link, target="_blank", onclick="$('#appChoice#{chapter.replace(/ /g,'')}').modal('hide')") 
                                                 span Facebook on browser, please.
