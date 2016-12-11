@@ -14,12 +14,15 @@ var express = require('express'),
 
 var app = express();
 
+app.use(express.static(__dirname + '/public'))
+
 app.set('view engine', 'jade');
 app.set('views', __dirname  + '/views'); 
 
 app.get('/', function(req, res) {
     res.render('index', {stateNames: stateNames, states: states, data: data});
-})
+}) 
+
 
 app.get('/profile/:profileName?', function(req, res) {
     var profileName = req.params.profileName;
@@ -28,7 +31,10 @@ app.get('/profile/:profileName?', function(req, res) {
         res.send("This page is under construction!");    
     } else {
         var profile = data.states[profileName];
-        res.render('profile', {data: profile, profileName: profileName});
+        var noChapter = false;
+        noChapter = Object.keys(profile.chapters).length === 0 ? true : false;
+
+        res.render('profile', {data: profile, profileName: profileName, noChapter: noChapter});
     }
 
 });
@@ -41,10 +47,11 @@ app.get('/article/:articleName/:profileName?', function(req, res) {
         res.status(503);  
         res.send("This article page is under construction!");    
     } else {
-        res.render('./articles/' + articleName, {profileName: profileName});
+        res.render('./articles/' + articleName, {profileName: profileName, data:data});
     }
 
 });
+
 
 app.listen(3000, function() {
     console.log('The frontend server is listening on port 3000');

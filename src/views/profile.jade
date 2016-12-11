@@ -1,10 +1,61 @@
 extends ./layout.jade
 block content
-    h1 #{profileName} Local Chapters!
-    div.profile 
-        ul.chapter-list
-            each chapter in Object.keys(data.chapters)
-                li 
-                    a(href=data.chapters[chapter].link target="_blank") #{chapter}
+    div.profile
+        .col-xs-12
+            h1.profileNameCase #{profileName} Local Chapters!
+            if noChapter
+                h3.no-chapter-heading Oh, no! We need a chapter for your state!
+                    span Please start one - This is as grassroots as it gets! 
+                    span Facebook groups are very easy to start and may require 
+                    span an average of 1 hour a week to run.
+                    span We provide custom images and you get access to our chapter admin support group!
+                    span We send all page vistors to their respective chapter like yours!
+                    
+            if !noChapter 
+                h4 Find your chapter here:      
+        .chapter-list.col-xs-12.col-sm-6.col-md-7.no-padding
+            ul
+                each chapter in Object.keys(data.chapters)
+                    li.col-xs-7.col-sm-6.col-md-4.col-lg-3.no-padding-right.pull-right 
+                        a.mobile.hidden-lg.hidden-md(data-toggle="modal" href="#appChoice#{chapter.replace(/ /g,'')}" )
+                            span #{chapter}
+                        a.desktop.hidden-xs.hidden-sm(href=data.chapters[chapter].link target="_blank")
+                            span #{chapter}                            
+                        .modal.fade(id="appChoice#{chapter.replace(/ /g,'')}",tabindex="-1",role="dialog",aria-labelledby="#appChoice#{chapter.replace(/ /g,'')}",aria-hidden="true")
+                            .modal-dialog
+                                .modal-content
+                                    .modal-header
+                                        button.close(type="button",data-dismiss="modal")
+                                            span(aria-hidden="true") &times;
+                                            span.sr-only Close
+                                        h4.modal-title(id="appChoice#{chapter.replace(/ /g,'')}") Chapters are on Facebook. Do you want to go to the app or browser?
+                                    .modal-body
+                                        span.choice
+                                            a(href='fb://' + data.chapters[chapter].link.replace("https://www.facebook.com/", "").replace("https://facebook.com/", ""),target="_blank", onclick="$('#appChoice#{chapter.replace(/ /g,'')}').modal('hide')")
+                                                span Facebook App!
+                                            a(href=data.chapters[chapter].link, target="_blank", onclick="$('#appChoice#{chapter.replace(/ /g,'')}').modal('hide')") 
+                                                span Facebook on browser, please.
+                                    .modal-footer
+                                        button.btn.btn-default(type="button",data-dismiss="modal") Cancel                            
+            if noChapter
+                .no-chapter
+                    ul 
+                        li.pull-right
+                            a(href='/article/chapter-start/'+ profileName) 
+                                span How to Start a New Local Chapter
+            if !noChapter
+                .chapter-start
+                    .message
+                        strong If you don't see a chapter for your area,
+                        strong  please start one. 
+                    ul
+                        li.col-xs-10.col-xs-push-1.col-sm-10.col-sm-push-1.col-md-8.col-md-push-2.col-lg-6.col-lg-push-3
+                            a(href='/article/chapter-start/'+ profileName) 
+                                span How to Start a New Local Chapter
+        .profile-links.col-xs-12.col-sm-6.col-md-5.no-padding
+            include ./partials/_profile-links
+        
 
-    include ./partials/_profile-links
+
+
+   

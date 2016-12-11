@@ -1,6 +1,10 @@
 html(lang="en")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
     include ./partials/_head.jade
     body
         .header
-            div testing all the success
-        block content
+            a(href='/' class="home")
+                span
+        .container
+            block content
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
