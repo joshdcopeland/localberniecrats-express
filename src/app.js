@@ -53,8 +53,8 @@ app.get('/article/:articleName/:profileName?', function(req, res) {
 });
 
 
-app.listen(8080, function() {
-    console.log('The frontend server is listening on port 8080');
+app.listen(3000, function() {
+    console.log('The frontend server is listening on port 3000');
 });
 
 
