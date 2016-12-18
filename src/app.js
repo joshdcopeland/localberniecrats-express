@@ -1,5 +1,5 @@
 'use strict';
-
+var http = require('http');
 var express = require('express'),
     data = require('./storage/profile.json'),
     stateNames = Object.keys(data.states),
@@ -13,7 +13,7 @@ var express = require('express'),
 
 
 var app = express();
-
+app.set('port', process.env.PORT || 3000);
 app.use(express.static(__dirname + '/public'))
 
 app.set('view engine', 'jade');
@@ -53,8 +53,7 @@ app.get('/article/:articleName/:profileName?', function(req, res) {
 });
 
 
-app.listen(3000, function() {
-    console.log('The frontend server is listening on port 3000');
+http.createServer(app).listen(app.get('port'), function(){
+  console.log('The Frontend server listening on port ' + app.get('port'));
 });
-
 
