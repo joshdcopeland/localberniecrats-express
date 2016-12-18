@@ -3,7 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+<<<<<<< HEAD:package.json
     "start": "node src/app.js"
+=======
+    "start": "node app.js"
+>>>>>>> 1ca9afdd4150435788656256cc7f7e032c990272:src/package.json
   },
   "dependencies": {
     "express": "3.4.0",
