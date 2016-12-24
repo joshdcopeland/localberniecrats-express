@@ -42,11 +42,8 @@
         "california": { 
 			"abbrev": "CA",
 			"chapters": {
-				"Antelope Valley": {
-					"link": "https://www.facebook.com/groups/wewantbernieav/"
-				},
 				"East Bay": {
-					"link": "https://www.facebook.com/groups/EastBayBerniecrats/"
+					"link": "https://www.facebook.com/groups/1073876322648752/"
 				},
 				"Eureka-Arcata": {
 					"link": "https://www.facebook.com/berniecratsEurekaArcata/"
@@ -57,11 +54,11 @@
 				"Los Angeles": {
 					"link": "https://facebook.com/localberniecratslosangeles/"
 				},
+				"Studio City, CA": {
+					"link": "https://www.facebook.com/groups/1195246960551602/"
+				},   				
 				"San Diego": {
 					"link": "https://www.facebook.com/groups/701685769980369/"
-				},
-				"San Fernando Valley": {
-					"link": "https://www.facebook.com/localberniecratssanfernandovalley/"
 				},
 				"San Fransisco Bay Area-Sacramento": {
 					"link": "https://www.facebook.com/Local-Berniecrats-San-Francisco-Bay-Area-Sacramento-1712275449034427/"
@@ -103,9 +100,15 @@
         "florida": { 
 			"abbrev": "FL",
 			"chapters": {
+				"Jacksonville": {
+					"link": "https://www.facebook.com/LocalBerniecratsJax/"
+				},				
 				"Sarasota/Manatee": {
 					"link": "https://www.facebook.com/LocalBerniecratsSaraMana/"
-				}
+				},
+				"Tallahassee": {
+					"link": "https://www.facebook.com/TallyBerniecrats"
+				}					
 			}
         },
         "georgia": { 
@@ -141,15 +144,18 @@
 			"abbrev": "IL",
 			"chapters": {
 				"Southern Illinois": {
-					"link": "https://www.facebook.com/groups/berniecrats4southernIL/"
-				}
+					"link": "https://www.facebook.com/groups/715259275296526/"
+				},
+				"Chicago ": {
+					"link": "https://www.facebook.com/groups/1346786168678881/"
+				}				
 			}
         },
         "indiana": { 
 			"abbrev": "IN",
 			"chapters": {
 				"Fort Wayne and Northeast Indiana": {
-					"link": "https://www.facebook.com/groups/FWNEINBerniecrats/"
+					"link": "https://www.facebook.com/groups/321287324870231/"
 				},
                 "Indianapolis": {
 					"link": "https://www.facebook.com/Bernindinapolis/"
@@ -175,8 +181,8 @@
         "kentucky": { 
 			"abbrev": "KY",
 			"chapters": {
-				"Tri State KY OH WVA": {
-					"link": "https://www.facebook.com/berniecratsKYOHWVA"
+				"State oh Kentucky": {
+					"link": "www.facebook.com/localberniecratskentucky"
 				}
 			}
         },
@@ -191,6 +197,9 @@
         "maine": { 
 			"abbrev": "ME",
 			"chapters": {
+				"Maine": {
+					"link": "https://www.facebook.com/groups/1641661732799170/"
+				}				
 			}
         },
         "maryland": { 
@@ -209,6 +218,9 @@
 			"chapters": {
 				"Worcester County": {
 					"link": "https://www.facebook.com/groups/1813412892222125/"
+				},
+				"Metro Boston": {
+					"link": "https://www.facebook.com/groups/142296442912035/"
 				}
 			}
         },
@@ -278,6 +290,9 @@
 				},
 				"Southern New Jersey": {
 					"link": "https://www.facebook.com/groups/625084360993198/"
+				},
+				"Union County": {
+					"link": "https://www.facebook.com/groups/1299060423460048/"
 				}
 			}
         },
@@ -303,6 +318,9 @@
 				},
 				"Western New York": {
 					"link": "https://www.facebook.com/Local-Berniecrats-of-Western-New-York-165977177147886/"
+				},
+				"Westchester & Rockland & Orange County, NY": {
+					"link": "https://www.facebook.com/groups/642546289280229/"
 				}
 			}
         },
@@ -320,6 +338,9 @@
 				},
 				"Greensboro": {
 					"link": "https://www.facebook.com/groups/1155270384495599/"
+				},
+				"Winston Salem, NC": {
+					"link": "https://www.facebook.com/groups/373040856370470/"
 				}
 			}
         },
@@ -331,12 +352,15 @@
         "ohio": { 
 			"abbrev": "OH",
 			"chapters": {
-				"Tri State KY OH WVA": {
-					"link": "https://www.facebook.com/berniecratsKYOHWVA/"
-				},
+				"Butler County": {
+					"link": "https://www.facebook.com/groups/1995442937349500/"
+				},				
 				"Northeast Ohio": {
 					"link": "https://www.facebook.com/NortheastOhioBerniecrats/"
 				},
+				"Northwest Ohio": {
+					"link": "https://www.facebook.com/groups/571598483034313/"
+				},				
 				"Cincinnati": {
 					"link": "https://www.facebook.com/groups/1755787184671676/"
 				}
@@ -366,6 +390,9 @@
 				},
 				"South Central PA": {
 					"link": "https://www.facebook.com/groups/490018954534263/"
+				},
+				"Southestern PA": {
+					"link": "https://www.facebook.com/groups/214286605693830/"
 				}
 			}
         },
@@ -450,9 +477,6 @@
 			"chapters": {
 				"State of West Virginia": {
 					"link": "https://www.facebook.com/groups/125747971199765/"
-				},
-				"Tri State KY OH WVA": {
-					"link": "https://www.facebook.com/berniecratsKYOHWVA"
 				}
 			}
         },
