@@ -216,11 +216,14 @@
         "massachusetts": { 
 			"abbrev": "MA",
 			"chapters": {
-				"Worcester County": {
-					"link": "https://www.facebook.com/groups/1813412892222125/"
+				"Bristol County": {
+					"link": "https://www.facebook.com/groups/641035136105147/"
 				},
 				"Metro Boston": {
 					"link": "https://www.facebook.com/groups/142296442912035/"
+				},				
+				"Worcester County": {
+					"link": "https://www.facebook.com/groups/1813412892222125/"
 				}
 			}
         },
