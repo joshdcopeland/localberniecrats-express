@@ -16,12 +16,36 @@ body {
     color: #ff6600;
 }
 .footer {
-    height: 40px;
+    padding: 30px;
+}
+.footer .partners {
+    text-align: center;
+    display: inline-block;
     width: 100%;
-    padding: 15px;
-    margin-top: 30px;
-    background: #ccc;
-    color: #333;
+}
+a.partner{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+a.partner:last-of-type{
+    margin-right: 0px;
+}
+a.partner span {
+    color: black;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.partner img {
+    display: block;
+    width: 150px;
+    height: auto;   
+}
+a.partner.ourrev  img{
+    width: 120px;
+    margin-top: -18px;
 }
 .container {
     min-height: 200px;
