@@ -26,8 +26,13 @@ body {
 a.partner{
     text-decoration: none;
     display: inline-block;
-    margin-right: 60px;
+    margin-right: 40px;
 }
+@media (max-width: 767px) {
+    a.partner{
+        margin-right: 30px;
+    }  
+}  
 a.partner:last-of-type{
     margin-right: 0px;
 }
