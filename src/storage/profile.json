@@ -57,6 +57,9 @@
 				"Los Angeles": {
 					"link": "https://facebook.com/localberniecratslosangeles/"
 				},
+				"Orange County": {
+					"link": "https://www.facebook.com/groups/1584915051522302/"
+				},
 				"Studio City, CA": {
 					"link": "https://www.facebook.com/groups/1195246960551602/"
 				},   				
@@ -74,6 +77,9 @@
         "colorado": { 
 			"abbrev": "CO",
 			"chapters": {
+				"Cañon City": {
+					"link": "https://www.facebook.com/LETSADDEM/"
+				},
 				"Denver-Boulder": {
 					"link": "https://www.facebook.com/berniecratsdenverboulder/"
 				}
@@ -192,7 +198,10 @@
 			"chapters": {
 				"State of Kentucky": {
 					"link": "www.facebook.com/localberniecratskentucky"
-				}
+				},
+				"Lexington": {
+					"link": "https://www.facebook.com/groups/1627798290802615/"
+				}				
 			}
         },
         "louisiana": {
@@ -351,6 +360,9 @@
 				"Charlotte": {
 					"link": "https://www.facebook.com/LocalBerniecratsCharlotteNC/"
 				},
+				"Durham Person Orange Caswell Counties": {
+					"link": "https://www.facebook.com/LocalBerniecratsNCDurhamPersonOrangeCaswell/"
+				},
 				"Greensboro": {
 					"link": "https://www.facebook.com/groups/1155270384495599/"
 				},
@@ -459,6 +471,9 @@
         "utah": { 
 			"abbrev": "UT",
 			"chapters": {
+				"Salt Lake City": {
+					"link": "https://www.facebook.com/groups/954635534641909/"
+				}				
 			}
         },
         "vermont": { 
