@@ -93,6 +93,9 @@
 			"chapters": {
 				"Killingly": {
 					"link": "https://www.facebook.com/groups/1834753773414939/"
+				},
+				"Danbury & NW Connecticut": {
+					"link": "https://www.facebook.com/groups/253232158443728/"
 				}
 			}
         },
@@ -327,6 +330,9 @@
 				"Monmouth County New Jersey": {
 					"link": "https://www.facebook.com/Local-Berniecrats-Monmouth-County-New-Jersey-1071215512914245/"
 				},
+				"Northern New Jersey": {
+					"link": "https://www.facebook.com/groups/1570883949608441/"
+				},
 				"Southern New Jersey": {
 					"link": "https://www.facebook.com/groups/625084360993198/"
 				},
@@ -539,6 +545,9 @@
         "wyoming": { 
 			"abbrev": "WY",
 			"chapters": {
+				"Wyoming": {
+					"link": "https://www.facebook.com/groups/1190948907667617/"
+				}
 			}
         }
 	}
