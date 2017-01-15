@@ -475,7 +475,7 @@
 				}
 			}
         },
-        "texas": { 
+        "texas": {
 			"abbrev": "TX",
 			"chapters": {
 				"Dallas-Fort Worth": {
@@ -486,6 +486,9 @@
 				},
 				"San Antonio": {
 					"link": "https://www.facebook.com/Local-Berniecrats-San-Antonio-1391476774227177/"
+				},
+				"Rio Grande Valley": {
+					"link": "https://www.facebook.com/groups/715432095288173/"
 				}
 			}
         },
