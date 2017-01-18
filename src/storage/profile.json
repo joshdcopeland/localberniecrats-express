@@ -48,6 +48,9 @@
         "california": { 
 			"abbrev": "CA",
 			"chapters": {
+				"Coachella Valley": {
+					"link": "https://www.facebook.com/BernicratsCV/"
+				},
 				"East Bay": {
 					"link": "https://www.facebook.com/groups/1073876322648752/"
 				},
@@ -83,6 +86,9 @@
 				"Cañon City": {
 					"link": "https://www.facebook.com/LETSADDEM/"
 				},
+				"Colorado Springs": {
+					"link": "https://www.facebook.com/groups/207245703074068/"
+				},
 				"Denver-Boulder": {
 					"link": "https://www.facebook.com/berniecratsdenverboulder/"
 				}
@@ -112,11 +118,14 @@
 				}
 			}
         },
-        "florida": { 
+        "florida": {
 			"abbrev": "FL",
 			"chapters": {
 				"Jacksonville": {
 					"link": "https://www.facebook.com/LocalBerniecratsJax/"
+				},				
+				"Pasco County": {
+					"link": "https://www.facebook.com/groups/221099581630077/"
 				},				
 				"Sarasota/Manatee": {
 					"link": "https://www.facebook.com/LocalBerniecratsSaraMana/"
@@ -167,7 +176,7 @@
 				}				
 			}
         },
-        "illinois": { 
+        "illinois": {
 			"abbrev": "IL",
 			"chapters": {
 				"Southern Illinois": {
@@ -175,6 +184,9 @@
 				},
 				"Chicago ": {
 					"link": "https://www.facebook.com/groups/1346786168678881/"
+				},
+				"Christian County": {
+					"link": "https://www.facebook.com/groups/400138020321322/"
 				}				
 			}
         },
@@ -229,6 +241,9 @@
 			"chapters": {
 				"Maine": {
 					"link": "https://www.facebook.com/groups/1641661732799170/"
+				},
+				"Waldo/Hancock": {
+					"link": "https://www.facebook.com/groups/1708500559460730/"
 				}				
 			}
         },
