@@ -102,6 +102,9 @@
 				},
 				"Danbury & NW Connecticut": {
 					"link": "https://www.facebook.com/groups/253232158443728/"
+				},
+				"Lower Fairfield County": {
+					"link": "https://www.facebook.com/groups/403266460019973/"
 				}
 			}
         },
@@ -215,13 +218,16 @@
         "kansas": { 
 			"abbrev": "KS",
 			"chapters": {
+				"Kansas": {
+					"link": "https://www.facebook.com/groups/1190093747752607/"
+				}
 			}
         },
         "kentucky": { 
 			"abbrev": "KY",
 			"chapters": {
 				"State of Kentucky": {
-					"link": "www.facebook.com/localberniecratskentucky"
+					"link": "https://www.facebook.com/localberniecratskentucky"
 				},
 				"Lexington": {
 					"link": "https://www.facebook.com/groups/1627798290802615/"
@@ -263,6 +269,9 @@
 			"chapters": {
 				"Bristol County": {
 					"link": "https://www.facebook.com/groups/641035136105147/"
+				},				
+				"Hatfield": {
+					"link": "https://www.facebook.com/groups/1212647125490042/"
 				},				
 				"Essex County": {
 					"link": "https://www.facebook.com/groups/1444940725517592/"
@@ -370,14 +379,20 @@
 				}
 			}
         },
-        "new york": { 
+        "new york": { https://www.facebook.com/groups/172543019895508/
 			"abbrev": "NY",
 			"chapters": {
+				"Mid-Hudson Valley": {
+					"link": "https://www.facebook.com/groups/172543019895508/"
+				},
 				"Long Island": {
 					"link": "https://www.facebook.com/Local-Berniecrats-Long-Island-NY-1097229583663788/"
 				},
 				"New York City": {
 					"link": "https://www.facebook.com/BerniecratsNYC/"
+				},
+				"Saratoga": {
+					"link": "https://www.facebook.com/Local-Berniecrats-Saratoga-303073996761667/"
 				},
 				"Sullivan County / Catskills / Hudson County": {
 					"link": "https://www.facebook.com/groups/643850355764829/"
@@ -513,6 +528,9 @@
 				},
 				"Houston": {
 					"link": "https://www.facebook.com/localberniecratsHouston/"
+				},
+				"Midland-Odessa": {
+					"link": "https://www.facebook.com/groups/1192757700773135/"
 				},
 				"San Antonio": {
 					"link": "https://www.facebook.com/Local-Berniecrats-San-Antonio-1391476774227177/"
