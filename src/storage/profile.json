@@ -135,6 +135,9 @@
 				},				
 				"South Florida": {
 					"link": "https://www.facebook.com/groups/1248368911886699/"
+				},				
+				"Southwest Florida": {
+					"link": "https://www.facebook.com/swflprogressives/"
 				},
 				"Tallahassee": {
 					"link": "https://www.facebook.com/TallyBerniecrats"
@@ -455,7 +458,10 @@
         },
         "oklahoma": { 
 			"abbrev": "OK",
-			"chapters": {
+			"chapters": {				
+				"Oklahoma": {
+					"link": "https://www.facebook.com/groups/1816265481962218/"
+				}
 			}
         },
         "oregon": { 
@@ -503,7 +509,10 @@
 			"abbrev": "SC",
 			"chapters": {
 				"Charleston": {
-					"link": "www.facebook.com/localberniecratscharleston"
+					"link": "https://www.facebook.com/localberniecratscharleston"
+				},
+				"Greenville": {
+					"link": "https://www.facebook.com/groups/323006428100729/"
 				}
 			}
         },
