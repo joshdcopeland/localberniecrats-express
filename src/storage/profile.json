@@ -481,6 +481,9 @@
         "pennsylvania": { 
 			"abbrev": "PA",
 			"chapters": {
+				"Hatsfield": {
+					"link": "https://www.facebook.com/groups/1212647125490042/"
+				},
 				"Northeastern PA": {
 					"link": "https://www.facebook.com/Localberniecratsnepa/"
 				},
@@ -521,7 +524,7 @@
 			"chapters": {
 			}
         },
-        "tennessee": { 
+        "tennessee": {
 			"abbrev": "TN",
 			"chapters": {
 				"State of Tennessee": {
