@@ -26,15 +26,17 @@ app.get('/', function(req, res) {
 
 app.get('/profile/:profileName?', function(req, res) {
     var profileName = req.params.profileName;
+
     if (profileName === undefined || data.states[profileName] === undefined) {
         res.status(503);  
         res.send("This page is under construction!");    
     } else {
         var profile = data.states[profileName];
+        var profileAbbrev = data.states[profileName].abbrev;
         var noChapter = false;
         noChapter = Object.keys(profile.chapters).length === 0 ? true : false;
 
-        res.render('profile', {data: profile, profileName: profileName, noChapter: noChapter});
+        res.render('profile', {data: profile, profileName: profileName, profileAbbrev: profileAbbrev, noChapter: noChapter});
     }
 
 });
