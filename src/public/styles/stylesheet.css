@@ -8,6 +8,32 @@ body {
     margin: 0;
     font-family: 'Open Sans', Helvetica,Arial,sans-serif;
 }
+.main-page-link {
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    right:0;
+    bottom:-5px; 
+}
+@media (min-width: 991px) {
+    .main-page-link {
+        width: 150px;
+        right: 23%;
+        bottom: 21px;
+    }  
+}  
+.main-page-link h4{
+    color: #444;
+    font-weight: 600;
+}
+.main-page-link > a{
+    color: #445aa1; 
+}    
+.main-page-link .choice a{
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
 .profileNameCase {
     text-transform: capitalize;
     color:#358ac6;
@@ -58,6 +84,7 @@ a.partner.ourrev  img{
     padding: 15px;
 }
 .header {
+    position: relative;
     width: 100%;
     height: 200px;
     padding: 15px;

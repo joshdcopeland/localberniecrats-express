@@ -5,6 +5,27 @@ html(lang="en")
         .header
             a(href='/' class="home")
                 span
+            div.col-xs-12.col-md-2.main-page-link 
+                a.mobile.hidden-lg.hidden-md(data-toggle="modal" href="#appChoiceMainPage" )
+                    span Follow us on Facebook!
+                a.desktop.hidden-xs.hidden-sm(href="https://www.facebook.com/localberniecrats/", target="_blank")
+                    span Follow us on Facebook!                          
+                .modal.fade(id="appChoiceMainPage",tabindex="-1",role="dialog",aria-labelledby="#appChoiceMainPage",aria-hidden="true")
+                    .modal-dialog
+                        .modal-content
+                            .modal-header
+                                button.close(type="button",data-dismiss="modal")
+                                    span(aria-hidden="true") &times;
+                                    span.sr-only Close
+                                h4.modal-title(id="appChoiceMainPage") Chapters are on Facebook. Do you want to go to the app or browser?
+                            .modal-body
+                                span.choice
+                                    a(href='fb://profile?id=localberniecrats', onclick="$('#appChoiceMainPage').modal('hide'); ga('send', 'event', 'Main Page', 'click', 'Main Page');")
+                                        span Facebook App!
+                                    a(href="https://www.facebook.com/localberniecrats/", target="_blank", onclick="$('#appChoiceMainPage').modal('hide')") 
+                                        span Facebook on browser, please.
+                            .modal-footer
+                                button.btn.btn-default(type="button",data-dismiss="modal") Cancel                
         .container
             block content
         .footer.col-xs-12
