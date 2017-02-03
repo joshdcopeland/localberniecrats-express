@@ -8,7 +8,7 @@ html(lang="en")
             div.col-xs-12.col-md-2.main-page-link 
                 a.mobile.hidden-lg.hidden-md(data-toggle="modal" href="#appChoiceMainPage" )
                     span Follow us on Facebook!
-                a.desktop.hidden-xs.hidden-sm(href="https://www.facebook.com/localberniecrats/", target="_blank")
+                a.desktop.hidden-xs.hidden-sm(href="https://www.facebook.com/localberniecrats/", target="_blank", onclick="ga('send', 'event', 'Main Page', 'click', 'Main Page');")
                     span Follow us on Facebook!                          
                 .modal.fade(id="appChoiceMainPage",tabindex="-1",role="dialog",aria-labelledby="#appChoiceMainPage",aria-hidden="true")
                     .modal-dialog
@@ -22,7 +22,7 @@ html(lang="en")
                                 span.choice
                                     a(href='fb://profile?id=localberniecrats', onclick="$('#appChoiceMainPage').modal('hide'); ga('send', 'event', 'Main Page', 'click', 'Main Page');")
                                         span Facebook App!
-                                    a(href="https://www.facebook.com/localberniecrats/", target="_blank", onclick="$('#appChoiceMainPage').modal('hide')") 
+                                    a(href="https://www.facebook.com/localberniecrats/", target="_blank", onclick="$('#appChoiceMainPage').modal('hide'); ga('send', 'event', 'Main Page', 'click', 'Main Page');") 
                                         span Facebook on browser, please.
                             .modal-footer
                                 button.btn.btn-default(type="button",data-dismiss="modal") Cancel                
