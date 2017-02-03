@@ -138,6 +138,9 @@
 				},				
 				"Southwest Florida": {
 					"link": "https://www.facebook.com/swflprogressives/"
+				},				
+				"Space Coast": {
+					"link": "https://www.facebook.com/groups/412193029133586/"
 				},
 				"Tallahassee": {
 					"link": "https://www.facebook.com/TallyBerniecrats"
@@ -204,7 +207,10 @@
 				},
                 "Indianapolis": {
 					"link": "https://www.facebook.com/Bernindinapolis/"
-				}                
+				},
+                "Hamilton County": {
+					"link": "https://facebook.com/groups/626388180881513"
+				}                 
 			}
         },
         "iowa": { 
@@ -259,6 +265,9 @@
         "maryland": { 
 			"abbrev": "MD",
 			"chapters": {
+				"Annapolis-Anne Arundel": {
+					"link": "https://www.facebook.com/groups/1758588364461146/"
+				},
 				"Baltimore": {
 					"link": "https://www.facebook.com/groups/769640953173339/"
 				},
@@ -322,6 +331,9 @@
 				},
 				"St Louis": {
 					"link": "https://www.facebook.com/groups/1808123152733889/"
+				},
+				"Columbia": {
+					"link": "https://www.facebook.com/berniecratscomo/"
 				}
 			}
         },
@@ -541,6 +553,9 @@
         "texas": {
 			"abbrev": "TX",
 			"chapters": {
+				"Austin": {
+					"link": "https://www.facebook.com/groups/1251458568241073/"
+				},
 				"Dallas-Fort Worth": {
 					"link": "https://www.facebook.com/groups/1782547551991016/"
 				},
