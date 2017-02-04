@@ -124,6 +124,9 @@
         "florida": {
 			"abbrev": "FL",
 			"chapters": {
+				"Central Florida": {
+					"link": "https://www.facebook.com/groups/1676451899037487/"
+				},		
 				"Jacksonville": {
 					"link": "https://www.facebook.com/LocalBerniecratsJax/"
 				},				
@@ -188,6 +191,9 @@
         "illinois": {
 			"abbrev": "IL",
 			"chapters": {
+				"Illinois Valley": {
+					"link": "https://www.facebook.com/groups/167745263716460/"
+				},
 				"Southern Illinois": {
 					"link": "https://www.facebook.com/groups/715259275296526/"
 				},
@@ -209,7 +215,7 @@
 					"link": "https://www.facebook.com/Bernindinapolis/"
 				},
                 "Hamilton County": {
-					"link": "https://facebook.com/groups/626388180881513"
+					"link": "https://www.facebook.com/groups/626388180881513"
 				}                 
 			}
         },
