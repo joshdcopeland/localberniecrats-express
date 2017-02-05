@@ -33,7 +33,7 @@
 			"abbrev": "AZ",
 			"chapters": {
 				"State of Arizona": {
-					"link": "https://www.facebook.com/berniecrats4AZ/"
+					"link": "https://www.facebook.com/groups/1139070869539179/"
 				},
 				"Tucson": {
 					"link": "https://www.facebook.com/groups/569777216564676/"
@@ -121,7 +121,7 @@
 				}
 			}
         },
-        "florida": {
+        "florida": { 
 			"abbrev": "FL",
 			"chapters": {
 				"Central Florida": {
@@ -616,6 +616,9 @@
 			"chapters": {
 				"Washington State": {
 					"link": "https://www.facebook.com/groups/256575948051987/"
+				},
+				"Seattle - Tacoma": {
+					"link": "https://www.facebook.com/LocalBerniecratsSeaTac"
 				}
 			}
         },
