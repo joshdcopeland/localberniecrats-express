@@ -5,6 +5,10 @@ html(lang="en")
         .header
             a(href='/' class="home")
                 span
+            div.hidden #{chapterTotal}
+            select.hidden
+                for chapter in chapters
+                    option= chapter.state +': ' + chapter.count
             div.col-xs-12.col-md-2.main-page-link 
                 a.mobile.hidden-lg.hidden-md(data-toggle="modal" href="#appChoiceMainPage" )
                     span Follow us on Facebook!
