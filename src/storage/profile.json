@@ -75,6 +75,9 @@
 				"Studio City, CA": {
 					"link": "https://www.facebook.com/groups/1195246960551602/"
 				},   				
+				"San Luis Obispo": {
+					"link": "https://www.facebook.com/groups/776045525894918/"
+				},   				
 				"San Diego": {
 					"link": "https://www.facebook.com/groups/701685769980369/"
 				},
@@ -291,6 +294,9 @@
         "massachusetts": { 
 			"abbrev": "MA",
 			"chapters": {
+				"Cape & Island": {
+					"link": "https://www.facebook.com/groups/1891913787710829/"
+				},	
 				"Bristol County": {
 					"link": "https://www.facebook.com/groups/641035136105147/"
 				},				
@@ -316,6 +322,9 @@
 			"chapters": {
 				"West Michigan": {
 					"link": "https://www.facebook.com/LocalBerniecratsWestMichigan/"
+				},
+				"Southeast Michigan": {
+					"link": "https://www.facebook.com/groups/375051652864869/"
 				},
 				"Ann Arbor-Ypsilanti Area": {
 					"link": "https://www.facebook.com/Local-Berniecrats-Ann-Arbor-Ypsilanti-Area-1082595528527372/"
@@ -409,6 +418,9 @@
         "new york": {
 			"abbrev": "NY",
 			"chapters": {
+				"Buffalo": {
+					"link": "https://www.facebook.com/groups/1664777330202668/"
+				},
 				"Mid-Hudson Valley": {
 					"link": "https://www.facebook.com/groups/172543019895508/"
 				},
@@ -546,6 +558,9 @@
 				},
 				"Greenville": {
 					"link": "https://www.facebook.com/groups/323006428100729/"
+				},
+				"Rock Hill": {
+					"link": "https://www.facebook.com/groups/390980367926426/"
 				}
 			}
         },
