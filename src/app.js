@@ -54,7 +54,7 @@ app.get('/article/:articleName/:profileName?', function(req, res) {
         res.status(503);  
         res.send("This article page is under construction!");    
     } else {
-        res.render('./articles/' + articleName, {profileName: profileName, data:data});
+        res.render('./articles/' + articleName, {chapterTotal: chapterTotal, chapters: chapters, profileName: profileName, data:data});
     }
 
 });
