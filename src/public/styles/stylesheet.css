@@ -216,6 +216,9 @@ a.partner.ourrev  img{
 .chapter-start strong {
     display: block;
 }
+.inline-block {
+    display: inline-block !important;
+}
 .chapter-list ul{
     display: inline-block;
     text-align: center;
