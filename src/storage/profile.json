@@ -201,10 +201,13 @@
 			}
         },
         "illinois": {
-			"abbrev": "IL",
+			"abbrev": "IL", 
 			"chapters": {
 				"Illinois Valley": {
 					"link": "https://www.facebook.com/groups/167745263716460/"
+				},
+				"Northern Illinois": {
+					"link": "https://www.facebook.com/groups/1815038062088736/"
 				},
 				"Southern Illinois": {
 					"link": "https://www.facebook.com/groups/715259275296526/"
@@ -361,6 +364,9 @@
 				},
 				"St Louis": {
 					"link": "https://www.facebook.com/groups/1808123152733889/"
+				},
+				"Springfield": {
+					"link": "https://www.facebook.com/groups/582779301932739/"
 				},
 				"Columbia": {
 					"link": "https://www.facebook.com/berniecratscomo/"
