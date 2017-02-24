@@ -217,6 +217,9 @@
 				},
 				"Christian County": {
 					"link": "https://www.facebook.com/groups/400138020321322/"
+				},
+				"Piatt County": {
+					"link": "https://www.facebook.com/groups/198718850611198/"
 				}				
 			}
         },
@@ -402,6 +405,9 @@
 			"chapters": {
 				"Hudson": {
 					"link": "https://www.facebook.com/groups/1269173366477934/"
+				},
+				"Concord": {
+					"link": "https://www.facebook.com/groups/137683983417909/"
 				}
 			}
         },
@@ -491,6 +497,9 @@
         "north dakota": { 
 			"abbrev": "ND",
 			"chapters": {
+				"North Dakota": {
+					"link": "https://www.facebook.com/groups/1799690943389810/"
+				}
 			}
         },
         "ohio": { 
