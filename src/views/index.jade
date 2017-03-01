@@ -1,7 +1,7 @@
 extends ./layout.jade
 
 block content
-    div.profile-chooser Welcome! Find your chapter here.
+    div.profile-chooser(onclick="console.log(#{chapterTotal})") Welcome! Find your chapter here.
         form(action='' method='get' id='profile-form')
             select(name='test' form='profile-form' onchange="javascript:location.href = this.value;")
                 option select your state 
