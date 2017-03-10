@@ -708,6 +708,14 @@
 					"link": "https://www.facebook.com/groups/1190948907667617/"
 				}
 			}
+        },
+        "International Chapters": { 
+			"abbrev": "INTL",
+			"chapters": {
+				"Istanbul Turkey": {
+					"link": "https://www.facebook.com/groups/263650430732629/"
+				}
+			}
         }
 	}
 }
