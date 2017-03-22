@@ -16,6 +16,9 @@
 				"State of Alabama": {
 					"link": "https://www.facebook.com/Local-Berniecrats-Alabama-1164292100310419/"
 				},
+				"Eastern Alabama": {
+					"link": "https://www.facebook.com/groups/1282663325151855/"
+				},
 				"Florence": {
 					"link": "https://www.facebook.com/groups/1395021590532309/"
 				}
@@ -74,7 +77,10 @@
 				},
 				"Orange County": {
 					"link": "https://www.facebook.com/groups/1584915051522302/"
-				},
+				},   				
+				"Sacramento Valley": {
+					"link": "https://www.facebook.com/groups/271307876633666/"
+				}, 
 				"Studio City, CA": {
 					"link": "https://www.facebook.com/groups/1195246960551602/"
 				},   				
@@ -159,6 +165,9 @@
 				},				
 				"Space Coast": {
 					"link": "https://www.facebook.com/groups/412193029133586/"
+				},				
+				"NW Florida": {
+					"link": "https://www.facebook.com/groups/1352755294768472/"
 				},
 				"Volusia County": {
 					"link": "https://www.facebook.com/Local-Berniecrats-of-Volusia-County-1762021437456369/"
@@ -414,6 +423,9 @@
 				},
 				"Concord": {
 					"link": "https://www.facebook.com/groups/137683983417909/"
+				},
+				"Dover": {
+					"link": "https://www.facebook.com/groups/1412851968789980/"
 				}
 			}
         },
@@ -480,7 +492,7 @@
         "north carolina": { 
 			"abbrev": "NC",
 			"chapters": {
-				"Asheville Area/WNC": {
+				"Asheville Area - WNC": {
 					"link": "https://www.facebook.com/groups/1717226081873311/"
 				},
 				"Charlotte": {
@@ -625,6 +637,9 @@
         "texas": {
 			"abbrev": "TX",
 			"chapters": {
+				"Amarillo": {
+					"link": "https://www.facebook.com/groups/643541755835107/"
+				},
 				"Austin": {
 					"link": "https://www.facebook.com/groups/1251458568241073/"
 				},
@@ -680,7 +695,7 @@
 			"chapters": {
 			}
         },
-        "washington state": { 
+        "washington state": {
 			"abbrev": "WA",
 			"chapters": {
 				"Washington State": {
@@ -688,6 +703,9 @@
 				},
 				"Seattle - Tacoma": {
 					"link": "https://www.facebook.com/LocalBerniecratsSeaTac"
+				},
+				"Olympic Peninsula": {
+					"link": " https://www.facebook.com/groups/645588458978922/"
 				}
 			}
         },
