@@ -63,6 +63,9 @@
 				"East Bay": {
 					"link": "https://www.facebook.com/groups/1073876322648752/"
 				},
+				"Inland Empire": {
+					"link": "https://www.facebook.com/groups/1871862636434795/"
+				},
 				"Eureka-Arcata": {
 					"link": "https://www.facebook.com/berniecratsEurekaArcata/"
 				},
@@ -633,6 +636,9 @@
         "south dakota": { 
 			"abbrev": "SD",
 			"chapters": {
+				"Rapid City": {
+					"link": "https://www.facebook.com/groups/675682639307249/"
+				}
 			}
         },
         "tennessee": {
@@ -696,9 +702,6 @@
 			"chapters": {
 				"Commonwealth of Virginia": {
 					"link": "https://www.facebook.com/groups/100286480419952/"
-				},
-				"Charlotte County": {
-					"link": "https://www.facebook.com/groups/277148642717421/"
 				}
 			}
         },
