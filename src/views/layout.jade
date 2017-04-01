@@ -3,12 +3,13 @@ html(lang="en")
     include ./partials/_head.jade
     body
         .header
+  
             a(href='/' class="home")
-                span
             select.hidden
                 for chapter in chapters
                     option= chapter.state +': ' + chapter.count
             div.col-xs-12.col-md-2.main-page-link 
+                div.chapter-total Current total chapters: #{chapterTotal}  
                 a.mobile.hidden-lg.hidden-md(data-toggle="modal" href="#appChoiceMainPage" )
                     span Follow us on Facebook!
                 a.desktop.hidden-xs.hidden-sm(href="https://www.facebook.com/localberniecrats/", target="_blank", onclick="ga('send', 'event', 'Main Page', 'click', 'Main Page');")
