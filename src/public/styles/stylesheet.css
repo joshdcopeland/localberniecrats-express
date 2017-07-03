@@ -14,19 +14,38 @@ body {
     color: cornflowerblue;
 }
 .main-page-link {
+    position: relative;
+    display: block;
     font-size: 18px;
     font-weight: 600;
-    position: absolute;
-    right:0;
-    bottom:-24px; 
+    width: 50%;
+    margin-left: auto;
 }
-@media (min-width: 991px) {
-    .main-page-link {
-        width: 150px;
-        right: 23%;
-        bottom: -31px;
-    }  
-}  
+.main-page-link > .chapter-total, .main-page-link > a {
+    position: absolute;
+    display: inline-block;
+    width: 130px;
+    left: 100px;
+}
+.main-page-link > .chapter-total {
+    top: -50px;
+}
+.main-page-link > a {
+    top: 5px;
+    background: #fee;
+    border-radius: 3px;
+}
+@media (max-width: 600px) {
+    .main-page-link > .chapter-total, .main-page-link > a {
+     left: 50px;   
+    }
+    .main-page-link > .chapter-total {
+        top: -45px;
+    }
+    .main-page-link > a {
+        top: 10px;
+    }
+} 
 .main-page-link h4{
     color: #444;
     font-weight: 600;
