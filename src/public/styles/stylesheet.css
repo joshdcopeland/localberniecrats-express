@@ -149,7 +149,10 @@ a.partner.ourrev  img{
     transition: all 0.3s ease 
 }
 .profile-chooser {
-    margin-top: 20px;
+    display: block;
+    width: 300px;
+    font-size: 16px;
+    margin: 20px auto 0 auto;
     text-align: center;
 }
 .profile-chooser form{
