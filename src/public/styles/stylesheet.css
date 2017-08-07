@@ -30,29 +30,46 @@ body {
 .main-page-link > .chapter-total {
     top: -50px;
 }
-.main-page-link > a {
+/*.main-page-link > label{
+    position: absolute;
+    display: inline-block;
+    left: 0px;
+    top: 12px;
+    color: #bbb;
+}*/
+ .main-page-link > a {
     top: 5px;
     background: #fee;
     border-radius: 3px;
+    border: 1px solid #f99;
+}
+.header .main-page-link > a:hover {
+    color: #a77;
+    background: #fee;
+    border: 1px solid #fdd;
 }
 @media (max-width: 600px) {
     .main-page-link > .chapter-total, .main-page-link > a {
-     left: 50px;   
+     left: 50px;
     }
+    /*.main-page-link > label{
+        left: -50px;
+        top: 12px;
+    }*/
     .main-page-link > .chapter-total {
         top: -45px;
     }
     .main-page-link > a {
         top: 10px;
     }
-} 
+}
 .main-page-link h4{
     color: #444;
     font-weight: 600;
 }
 .main-page-link > a{
-    color: #445aa1; 
-}    
+    color: #445aa1;
+}
 .main-page-link .choice a{
     display: block;
     margin-bottom: 15px;
@@ -82,8 +99,8 @@ a.partner{
 @media (max-width: 767px) {
     a.partner{
         margin-right: 30px;
-    }  
-}  
+    }
+}
 a.partner:last-of-type{
     margin-right: 0px;
 }
@@ -97,7 +114,7 @@ a.partner span {
 .partner img {
     display: block;
     width: 150px;
-    height: auto;   
+    height: auto;
 }
 a.partner.ourrev  img{
     width: 150px;
@@ -118,7 +135,7 @@ a.partner.ourrev  img{
     background-position: center center;
     background-size: auto 200px;
     background-repeat: repeat;
-}          
+}
 .header a.home {
     position: relative;
     display: inline-block;
@@ -146,7 +163,7 @@ a.partner.ourrev  img{
 .header a:hover {
     text-decoration: none;
     color: #999;
-    transition: all 0.3s ease 
+    transition: all 0.3s ease
 }
 .profile-chooser {
     display: block;
@@ -164,7 +181,7 @@ a.partner.ourrev  img{
     font-size: 16px;
     border:1px solid #888;
     border-radius: 5px;
-}               
+}
 .profile-chooser input{
     margin-left:5px;
     color: #33b;
@@ -177,7 +194,7 @@ a.partner.ourrev  img{
     color: #4f7f7f;
     border:1px solid #afe2ef;
     transition: all 0.3s ease;
-} 
+}
 .profile-chooser input:active{
     outline: none;
     background: #bce;
@@ -200,7 +217,7 @@ a.partner.ourrev  img{
 }
 .profile .no-chapter-heading {
     color: red;
-} 
+}
 .profile .no-chapter-heading span {
     color: black;
     display: block;
@@ -208,13 +225,13 @@ a.partner.ourrev  img{
 }
 .profile .no-chapter-heading span:first-child {
     margin-top: 10px;
-}  
+}
 .profile > div{
     text-align: center;
 }
 .profile-links {
     text-align: center;
-}                                                                                                        
+}
 .chapter-list {
     display: inline-block;
     text-align: center;
@@ -231,7 +248,7 @@ a.partner.ourrev  img{
     background: #fee;
 }
 .chapter-start {
-    
+
 }
 .chapter-start ul {
     margin-top: 0;
@@ -264,10 +281,10 @@ a.partner.ourrev  img{
     align-items: center;
     padding: 10px;
     width:100%;
-    min-height: 60px;            
+    min-height: 60px;
     border:1px solid #caa;
     border-radius: 5px;
-    font-size: 16px; 
+    font-size: 16px;
     text-decoration: none;
     color: dodgerblue;
     transition: all 0.3s ease;
@@ -291,13 +308,13 @@ a.partner.ourrev  img{
 }
 .chapter-list ul li a span{
     display: inline-block;
-}  
-          
+}
+
 .chapter-list ul li a:hover{
     background: #faf6fa;
     color: #928;
     transition: all 0.3s ease;
-} 
+}
 .side-links {
     margin-top: 15px;
 }
@@ -312,7 +329,7 @@ a.partner.ourrev  img{
     border-radius: 5px;
     padding: 16px;
     margin-left: 60px;
-    text-align: right;                                    
+    text-align: right;
 }
 
 .side-links div h4 {
@@ -323,16 +340,16 @@ a.partner.ourrev  img{
     display: block;
     margin-bottom:10px;
     font-size: 15px;
-    color: #76f;                             
-} 
+    color: #76f;
+}
 @media (max-width: 767px) {
     .pull-right {
         float: none !important;
     }
     .side-links div{
-        margin-left: 0px;                         
-    }    
-}                           
+        margin-left: 0px;
+    }
+}
  /*Helper Classes*/
 
 .no-padding {padding: 0 !important;}

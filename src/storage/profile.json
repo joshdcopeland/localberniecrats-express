@@ -66,6 +66,9 @@
 				"East Bay": {
 					"link": "https://www.facebook.com/groups/1073876322648752/"
 				},
+				"South Bay": {
+					"link": "https://www.facebook.com/groups/470828299942938/"
+				},
 				"Inland Empire": {
 					"link": "https://www.facebook.com/groups/1871862636434795/"
 				},
@@ -160,8 +163,14 @@
 				"Central Florida": {
 					"link": "https://www.facebook.com/groups/1676451899037487/"
 				},
+				"Hillsborough County": {
+					"link": "https://www.facebook.com/groups/1676451899037487/"
+				},
 				"Key West and FL Keys": {
 					"link": "https://www.facebook.com/groups/1896079743949358/"
+				},
+				"Hernando County": {
+					"link": "https://www.facebook.com/groups/326338737805389"
 				},		
 				"Jacksonville": {
 					"link": "https://www.facebook.com/LocalBerniecratsJax/"
@@ -177,9 +186,6 @@
 				},				
 				"Southwest Florida": {
 					"link": "https://www.facebook.com/swflprogressives/"
-				},				
-				"Space Coast": {
-					"link": "https://www.facebook.com/groups/412193029133586/"
 				},				
 				"NW Florida": {
 					"link": "https://www.facebook.com/groups/1352755294768472/"
@@ -233,7 +239,7 @@
         "illinois": {
 			"abbrev": "IL", 
 			"chapters": {
-				"Illinois Valley": {
+				"Central Illinois": {
 					"link": "https://www.facebook.com/groups/167745263716460/"
 				},
 				"Northern Illinois": {
@@ -292,6 +298,9 @@
 				},
 				"Hutchinson": {
 					"link": "https://www.facebook.com/groups/671327006399847/"
+				},
+				"SW Kansas": {
+					"link": "https://www.facebook.com/groups/717515711768081/"
 				}
 			}
         },
@@ -386,6 +395,9 @@
 				"Southeast Michigan": {
 					"link": "https://www.facebook.com/groups/375051652864869/"
 				},
+				"Southcentral Michigan": {
+					"link": "https://www.facebook.com/groups/137927620139407/"
+				},
 				"Ann Arbor - Ypsilanti Area": {
 					"link": "https://www.facebook.com/Local-Berniecrats-Ann-Arbor-Ypsilanti-Area-1082595528527372/"
 				},
@@ -465,6 +477,9 @@
 			"chapters": {
 				"Hudson": {
 					"link": "https://www.facebook.com/groups/1269173366477934/"
+				},
+				"Manchester CD1": {
+					"link": "https://www.facebook.com/groups/504142416588291/"
 				},
 				"Concord": {
 					"link": "https://www.facebook.com/groups/137683983417909/"
@@ -585,6 +600,9 @@
 				},
 				"Dayton": {
 					"link": "https://www.facebook.com/groups/404768699870212/"
+				},
+				"Wilmington": {
+					"link": "https://www.facebook.com/groups/119342538684746/"
 				},				
 				"Northeast Ohio": {
 					"link": "https://www.facebook.com/NortheastOhioBerniecrats/"
