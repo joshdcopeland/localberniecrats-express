@@ -37,11 +37,20 @@ body {
     top: 12px;
     color: #bbb;
 }*/
+@keyframes facebook-link {
+    0%   {background-color: #fee}
+    50%  {background-color: #bcf;}
+    100% {background-color: #fee;}
+}
+
  .main-page-link > a {
     top: 5px;
     background: #fee;
-    border-radius: 3px;
+    border-radius: 14px;
     border: 1px solid #f99;
+    animation-name: facebook-link;
+    animation-duration: 1.5s;
+    animation-iteration-count: 4;
 }
 .header .main-page-link > a:hover {
     color: #a77;

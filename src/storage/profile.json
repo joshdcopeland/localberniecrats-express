@@ -63,6 +63,9 @@
 				"Coachella Valley": {
 					"link": "https://www.facebook.com/BernicratsCV/"
 				},
+				"Redding": {
+					"link": "https://www.facebook.com/groups/121912205150201/"
+				},
 				"East Bay": {
 					"link": "https://www.facebook.com/groups/1073876322648752/"
 				},
@@ -149,11 +152,14 @@
 			"chapters": {
 			}
         },
-        "delaware": { 
+        "delaware": {
 			"abbrev": "DE",			
 			"chapters": {
 				"Delaware": {
 					"link": "https://www.facebook.com/groups/157213881351324/"
+				},
+				"Kent County": {
+					"link": "https://www.facebook.com/groups/349032008851517/"
 				}
 			}
         },
@@ -162,6 +168,9 @@
 			"chapters": {
 				"Central Florida": {
 					"link": "https://www.facebook.com/groups/1676451899037487/"
+				},
+				"Pinellas": {
+					"link": "https://www.facebook.com/groups/336088806848810/"
 				},
 				"Hillsborough County": {
 					"link": "https://www.facebook.com/groups/1676451899037487/"
@@ -265,8 +274,11 @@
 				"Fort Wayne and Northeast Indiana": {
 					"link": "https://www.facebook.com/groups/321287324870231/"
 				},
+                "SE Indiana": {
+					"link": "https://www.facebook.com/groups/1397624320338198/"
+				},
                 "Hamilton County": {
-					"link": "https://www.facebook.com/groups/626388180881513"
+					"link": "https://www.facebook.com/groups/626388180881513/"
 				},
                 "Indianapolis": {
 					"link": "https://www.facebook.com/groups/265118433941143/"
@@ -282,8 +294,8 @@
 				"Cedar Valley Iowa": {
 					"link": "https://www.facebook.com/Local-Berniecrats-Cedar-Valley-Iowa-136163673487939/"
 				},
-				"Central Iowa": {
-					"link": "https://www.facebook.com/groups/283586365341653/"
+				"North Central Iowa": {
+					"link": "https://www.facebook.com/groups/351173191961143"
 				},
 				"Quad Cities": {
 					"link": "https://www.facebook.com/groups/735776759911426/"
@@ -309,6 +321,9 @@
 			"chapters": {
 				"Bowling Green": {
 					"link": "https://www.facebook.com/groups/428343610845265/"
+				},
+				"Louisville": {
+					"link": "https://www.facebook.com/groups/279339622544656"
 				},
 				"State of Kentucky": {
 					"link": "https://www.facebook.com/localberniecratskentucky"
@@ -346,6 +361,9 @@
 				"Annapolis-Anne Arundel": {
 					"link": "https://www.facebook.com/groups/1758588364461146/"
 				},
+				"Silver Spring - Tacoma Park": {
+					"link": "https://www.facebook.com/groups/353219891805233/"
+				},
 				"Baltimore": {
 					"link": "https://www.facebook.com/groups/769640953173339/"
 				},
@@ -360,6 +378,9 @@
         "massachusetts": { 
 			"abbrev": "MA",
 			"chapters": {
+				"Hampden County": {
+					"link": "https://www.facebook.com/groups/1757012937925737"
+				},
 				"Cape & Islands": {
 					"link": "https://www.facebook.com/groups/1891913787710829/"
 				},	
@@ -395,8 +416,11 @@
 				"Southeast Michigan": {
 					"link": "https://www.facebook.com/groups/375051652864869/"
 				},
+				"North Vernon": {
+					"link": "https://www.facebook.com/groups/141659106522544/"
+				},
 				"Southcentral Michigan": {
-					"link": "https://www.facebook.com/groups/137927620139407/"
+					"link": "https://www.facebook.com/groups/119638728519637/"
 				},
 				"Ann Arbor - Ypsilanti Area": {
 					"link": "https://www.facebook.com/Local-Berniecrats-Ann-Arbor-Ypsilanti-Area-1082595528527372/"
@@ -777,6 +801,9 @@
 			"chapters": {
 				"Commonwealth of Virginia": {
 					"link": "https://www.facebook.com/groups/100286480419952/"
+				},
+				"Northern Virginia": {
+					"link": "https://www.facebook.com/groups/117152485757568/"
 				}
 			}
         },
@@ -789,7 +816,7 @@
 			"abbrev": "WA",
 			"chapters": {
 				"Washington State": {
-					"link": "https://www.facebook.com/groups/256575948051987/"
+					"link": "https://www.facebook.com/groups/1335920653173728"
 				},
 				"Seattle - Tacoma": {
 					"link": "https://www.facebook.com/LocalBerniecratsSeaTac"
@@ -817,6 +844,9 @@
 			"abbrev": "WI", 
 			"chapters": {
 				"Milwaukee - Waukesha": {
+					"link": "https://www.facebook.com/groups/1300977459913232/"
+				},
+				"Appleton-Fox Valley": {
 					"link": "https://www.facebook.com/groups/1300977459913232/"
 				}
 			}

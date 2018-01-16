@@ -22,13 +22,13 @@ html(lang="en")
                                 button.close(type="button",data-dismiss="modal")
                                     span(aria-hidden="true") &times;
                                     span.sr-only Close
-                                h4.modal-title(id="appChoiceMainPage") Chapters are on Facebook. Do you want to go to the app or browser?
+                                h4.modal-title(id="appChoiceMainPage")  Do you want to go to the Facebook app or browser?
                             .modal-body
                                 span.choice
                                     a(href='fb://profile?id=localberniecrats', onclick="$('#appChoiceMainPage').modal('hide'); ga('send', 'event', 'Main Page', 'click', 'Main Page');")
-                                        span Facebook App!
+                                        span Facebook App.
                                     a(href="https://www.facebook.com/localberniecrats/", target="_blank", onclick="$('#appChoiceMainPage').modal('hide'); ga('send', 'event', 'Main Page', 'click', 'Main Page');") 
-                                        span Facebook on browser, please.
+                                        span Facebook on browser.
                             .modal-footer
                                 button.btn.btn-default(type="button",data-dismiss="modal") Cancel                
         .container

@@ -1,7 +1,7 @@
 extends ./layout.jade
 
 block content
-    label.profile-chooser(onclick="console.log('Chapter total: ' + #{chapterTotal})") Start here. Find your local chapter. Elect local progressives!
+    label.profile-chooser(onclick="console.log('Chapter total: ' + #{chapterTotal})") Find your local chapter.
         form(action='' method='get' id='profile-form')
             select(name='test' form='profile-form' onchange="javascript:location.href = this.value;")
                 option select your state 
