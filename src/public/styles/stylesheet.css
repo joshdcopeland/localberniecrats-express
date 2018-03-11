@@ -84,6 +84,22 @@ body {
     margin-bottom: 15px;
     text-decoration: none;
 }
+a.candidate-app {
+    display: inline-block;
+    width: 400px;
+    margin-left: -15px;    
+}
+@media (max-width: 500px) {
+    a.candidate-app {
+        width: 100%;
+        margin: 0;
+    }
+}
+a.candidate-app img {
+    max-width: 100%;
+    height: auto;
+}
+
 .profileNameCase {
     text-transform: capitalize;
     color:#358ac6;
@@ -130,8 +146,14 @@ a.partner.ourrev  img{
     margin-top: -5px;
 }
 .container {
-    min-height: 200px;
+    /*min-height: 200px;*/
     padding: 15px;
+    text-align: center;
+}
+.container.short {
+    min-height: auto;
+    padding: 15px;
+    text-align: center;
 }
 .header {
     position: relative;

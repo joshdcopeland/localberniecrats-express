@@ -1,10 +1,12 @@
 extends ./layout.jade
 
 block content
-    label.profile-chooser(onclick="console.log('Chapter total: ' + #{chapterTotal})") Find your local chapter.
+    label.profile-chooser Find your local chapter.
         form(action='' method='get' id='profile-form')
             select(name='test' form='profile-form' onchange="javascript:location.href = this.value;")
                 option select your state 
                 each state in Object.keys(data.states)
                     option.profile-option(value='/profile/'+state) #{state}
             //- input(type='submit' value='Submit')
+    //- a(class='candidate-app', href='https://docs.google.com/forms/d/e/1FAIpQLSelgYvidCTDdS3g2qreMOYoB63S7I_lOHnlqe41yv2J8wjF9A/viewform?usp=sf_link')
+    //-     img(src='/img/candidate-app.png')
