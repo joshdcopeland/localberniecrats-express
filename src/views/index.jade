@@ -1,6 +1,6 @@
 extends ./layout.jade
 
-block content
+block content 
     label.profile-chooser Find your local chapter.
         form(action='' method='get' id='profile-form')
             select(name='test' form='profile-form' onchange="javascript:location.href = this.value;")
