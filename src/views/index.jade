@@ -4,6 +4,6 @@ block content
     label.profile-chooser Find your local chapter.
         form(action='' method='get' id='profile-form')
             select(name='test' form='profile-form' onchange="javascript:location.href = this.value;")
-                option select your state 
+                option select your state
                 each state in Object.keys(data.states)
                     option.profile-option(value='/profile/'+state) #{state}
