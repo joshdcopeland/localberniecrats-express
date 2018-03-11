@@ -29,6 +29,9 @@
 			"chapters": {
 				"District 35 SE Alaska": {
 					"link": "https://www.facebook.com/groups/509839785888969/"
+				},
+				"Anchorage - Eagle River": {
+					"link": "https://www.facebook.com/groups/141450113202881/"
 				}
 			}
         },
@@ -119,11 +122,14 @@
         "colorado": { 
 			"abbrev": "CO",
 			"chapters": {
-				"Cañon City": {
-					"link": "https://www.facebook.com/groups/628719530634111/"
+				"Denver": {
+					"link": "https://www.facebook.com/groups/1531247266964200/"
 				},
 				"Colorado Springs": {
 					"link": "https://www.facebook.com/groups/207245703074068/"
+				},
+				"Pueblo": {
+					"link": "https://www.facebook.com/groups/146832826106590/"
 				},
 				"Fort Collins": {
 					"link": "https://www.facebook.com/groups/1342585189118231/"
@@ -277,6 +283,9 @@
                 "SE Indiana": {
 					"link": "https://www.facebook.com/groups/1397624320338198/"
 				},
+				"North Vernon": {
+					"link": "https://www.facebook.com/groups/141659106522544/"
+				},
                 "Hamilton County": {
 					"link": "https://www.facebook.com/groups/626388180881513/"
 				},
@@ -416,9 +425,6 @@
 				"Southeast Michigan": {
 					"link": "https://www.facebook.com/groups/375051652864869/"
 				},
-				"North Vernon": {
-					"link": "https://www.facebook.com/groups/141659106522544/"
-				},
 				"Southcentral Michigan": {
 					"link": "https://www.facebook.com/groups/119638728519637/"
 				},
@@ -521,6 +527,9 @@
 				},
 				"Northern New Jersey": {
 					"link": "https://www.facebook.com/groups/1570883949608441/"
+				},
+				"Essex County": {
+					"link": "https://www.facebook.com/groups/154615971994689/"
 				},
 				"Southern New Jersey": {
 					"link": "https://www.facebook.com/groups/625084360993198/"
@@ -655,9 +664,6 @@
 				},
 				"Klamath County": {
 					"link": "https://www.facebook.com/groups/107781873095516/"
-				},
-				"Eugene - Springfield": {
-					"link": "https://www.facebook.com/Local-Berniecrats-EugeneSpringfield-1641914292792993/"
 				},
 				"Portland": {
 					"link": "https://www.facebook.com/groups/209213149553467/"
@@ -816,7 +822,10 @@
 			"abbrev": "WA",
 			"chapters": {
 				"Washington State": {
-					"link": "https://www.facebook.com/groups/1335920653173728"
+					"link": "https://www.facebook.com/groups/1335920653173728/"
+				},
+				"Mount Vernon": {
+					"link": "https://www.facebook.com/groups/773797366150404/"
 				},
 				"Seattle - Tacoma": {
 					"link": "https://www.facebook.com/LocalBerniecratsSeaTac"
